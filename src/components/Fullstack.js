@@ -57,7 +57,7 @@ const getEmployee = ()=>{
     <input type="number" placeholder="Age" onChange={(e)=>{setage(e.target.value)}} />
     <input type="text" placeholder="Country" onChange={(e)=>{setcountry(e.target.value)}}/>
     <input type="text" placeholder="Position" onChange={(e)=>{setposition(e.target.value)}}/>
-    <input type="number" placeholder="Wage (year)" onChange={(e)=>{setwage(e.target.value)}}/>
+    <input type="number" placeholder="Wage (year /s)" onChange={(e)=>{setwage(e.target.value)}}/>
     <button onClick={addEmployee}>Add Employee</button>
    
     </div>
